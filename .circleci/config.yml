@@ -13,7 +13,7 @@ jobs:
       - run:
           name: "Create txt file"
           command: |
-            echo "i am bluebeard or ${my_name}" > output.txt
+            echo "i am bluebeard or ${my_name}" > ~/output.txt
       - persist_to_workspace:
           root: ~/
           paths:
